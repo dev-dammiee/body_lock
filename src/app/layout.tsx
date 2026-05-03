@@ -3,7 +3,7 @@ import './globals.css';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'Body Keeper — Chain of Custody',
+  title: 'Body Lock— Chain of Custody',
   description: 'Morgue body tracking and chain of custody management system',
 };
 

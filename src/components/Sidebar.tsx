@@ -33,9 +33,9 @@ export default function Sidebar() {
       <div className="md:hidden fixed top-0 left-0 right-0 h-16 bg-[#0d0d0d] border-b border-[#1e1e1e] flex items-center justify-between px-4 z-40">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-[#00ff88] flex items-center justify-center flex-shrink-0">
-            <span className="text-black font-bold text-xs tracking-tight">BK</span>
+            <span className="text-black font-bold text-xs tracking-tight">BL</span>
           </div>
-          <p className="text-white font-semibold text-base leading-tight">Body Keeper</p>
+          <p className="text-white font-semibold text-base leading-tight">Body Lock</p>
         </div>
         <button
           onClick={() => setIsOpen(true)}
@@ -64,10 +64,10 @@ export default function Sidebar() {
         <div className="flex items-center justify-between px-5 py-5 border-b border-[#1e1e1e] h-16 md:h-auto">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-[#00ff88] flex items-center justify-center flex-shrink-0">
-              <span className="text-black font-bold text-sm tracking-tight">BK</span>
+              <span className="text-black font-bold text-sm tracking-tight">BL</span>
             </div>
             <div>
-              <p className="text-white font-semibold text-base leading-tight">Body Keeper</p>
+              <p className="text-white font-semibold text-base leading-tight">Body Lock</p>
               <p className="text-[#5a5a5a] text-xs tracking-widest uppercase hidden md:block">Chain of Custody</p>
             </div>
           </div>
